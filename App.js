@@ -25,7 +25,7 @@ export default function App() {
           component={Home}
           options={{
             title: "GameZone",
-            // headerStyle: { backgroundColor: "red" },
+            headerStyle: { backgroundColor: "red" },
           }}
         />
         <Stack.Screen
@@ -33,7 +33,7 @@ export default function App() {
           component={ReviewDetails}
           options={{
             title: "Reviews",
-            // headerStyle: { backgroundColor: "#eee" },
+            headerStyle: { backgroundColor: "#eee" },
           }}
         />
       </Stack.Navigator>
